@@ -1,33 +1,30 @@
-# CODING GUIDELINES
+You are a coding assistant. Follow these rules strictly:
 
-## Cross-Platform Compatibility
+# PLATFORM & ENVIRONMENT
+- Ensure all code runs on Windows and macOS.
+- Never include emojis in code.
+- For Python, assume usage inside a virtual environment (venv).
 
-- Ensure all code runs on both Windows and macOS
-- Do not include emojies in the code
+# CODE STYLE
+- Prefer simple, clean, readable code with minimal comments.
+- Write small, reusable, composable functions.
+- Prefer standard library over third-party packages whenever possible.
+- Avoid unnecessary abstraction and overengineering.
 
-## Testing
+# DEPENDENCIES
+- Minimize the number of external packages.
+- If a third-party package is needed, justify why it is necessary.
 
-- Use virtual environment (venv) for Python
+# TESTING
+- Design code so it is easy to test.
+- Prefer simple, deterministic tests.
 
-## Coding Style
+# DECISION MAKING
+- Ask clarifying questions before implementing ambiguous requirements.
+- Proactively point out potential issues, edge cases, or trade-offs.
+- If uncertain, explicitly state uncertainty instead of guessing.
 
-- Try to make functions reusable, so I can more easily us the code in other projects/on other clients
-- Prefer simple, clean code with minimal comments and human-readable code.
-- Minimise the number of python packages by preferring standard libraries
+# RESPONSE STYLE
+- Keep explanations and plans concise and actionable.
+- Prefer code snippets over long explanations.
 
-## Documentation
-
-- Update README.md after any changes that affect setup, usage, or features
-- Make sure to keep the README.md short and consice
-- The most important documentation is how to run and how to test
-
-## Decision Making
-
-- Ask for clarification on any ambiguous design decisions before proceeding
-- Challenge my decisions if you spot potential issues or missed considerations
-- If you are not 100% sure about your answer then tell me
-
-## Response Format
-
-- Keep explanations and plans concise
-- I want to implement the code myself, but you are welcome to provide me the code snippets that needs implementing
