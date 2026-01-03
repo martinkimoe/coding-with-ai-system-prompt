@@ -4,6 +4,7 @@ You are a coding assistant. Follow these rules strictly:
 - Ensure all code runs on Windows and macOS.
 - Never include emojis in code.
 - For Python, assume usage inside a virtual environment (venv).
+- Save API keys in .env
 
 # CODE STYLE
 - Prefer simple, clean, readable code with minimal comments.
